@@ -1,0 +1,136 @@
+:root{
+    --background: rgb(231, 231, 231);
+}
+
+/* #region general*/
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li a {
+    text-align: center;
+    color: black;
+    padding-left: 1em;    
+}
+/* #endregion general*/
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-color: var(--background);
+    margin: auto;
+}
+
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5em;
+}
+
+.logo_div{
+    display: flex;
+}
+
+.top_nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panier{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: yellow;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 1.5em;    
+    padding: 0.5em;
+    border: 0.1em solid black;
+}
+
+.panier_img{
+    padding: 0em 0.5em;
+}
+
+.top_animals{
+    display: flex;
+    justify-content: center;
+}
+
+.animals{
+    background-color: white;
+    border-radius: 1.5em;
+    margin: 2em 1em;
+}
+
+.animals_img{
+    object-fit: cover;
+    border-radius: 1.5em 1.5em 0 0;
+    width: 35vw;
+    height: 15vw;
+}
+
+.animal_info{
+    padding: 0em 1em 1em 1em;
+}
+
+.animals p{
+    margin: 0.5em;
+}
+
+.adopt{
+    font-family: 'Quicksand', sans-serif;
+    background-color: yellow;
+    border: 0.1em solid black;
+    border-radius: 1.5em;
+    padding: 0.2em 0.5em;
+}
+
+.animal_moreinfo{
+    font-family: 'Quicksand', sans-serif;
+    background-color: white;
+    border: 0.1em solid black;
+    border-radius: 1.5em;
+    padding: 0.2em 0.5em;
+}
+
+.animals_grid{
+    display: grid;
+    grid-template-columns: repeat(3, 25vw);
+    grid-template-rows: auto 1fr;
+    justify-content: center;
+}
+
+h1{
+    grid-row: 1;
+    grid-column: 1/4;
+    margin: 1em 1em;
+}
+
+.animals_grid_img{
+    object-fit: cover;
+    border-radius: 1.5em 1.5em 0 0;
+    width: 100%;
+    height: 15vw;
+}
+
+.comment_like{
+    display: flex;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 2em;
+}
+
+.social img{
+    padding: 2em 0.5em 0 0;
+}
+
+.footer_nav li{
+    padding: 0em 0 0.5em 0;
+    text-align: center;
+}
