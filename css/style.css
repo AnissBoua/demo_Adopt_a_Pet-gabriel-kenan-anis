@@ -66,6 +66,7 @@ header{
     background-color: white;
     border-radius: 1.5em;
     margin: 2em 1em;
+    width: 35vw;
 }
 
 .animals_img{
@@ -88,7 +89,7 @@ header{
     background-color: yellow;
     border: 0.12em solid var(--background);
     border-radius: 1.5em;
-    padding: 0.2em 0.5em;
+    padding: 0.3em 1em;
 }
 
 .animal_moreinfo{
@@ -106,10 +107,16 @@ header{
     justify-content: center;
 }
 
+.animals_gridsection{
+    background-color: white;
+    border-radius: 1.5em;
+    margin: 2em 1em;
+}
+
 h1{
     grid-row: 1;
     grid-column: 1/4;
-    margin: 1em 1em;
+    margin: 0em 1em;
 }
 
 .animals_grid_img{
@@ -117,6 +124,10 @@ h1{
     border-radius: 1.5em 1.5em 0 0;
     width: 100%;
     height: 15vw;
+}
+
+.animal_infotext{
+    height: 80%;
 }
 
 .animal_infolike{
@@ -130,6 +141,7 @@ h1{
 
 .comment_like{
     display: flex;
+    padding: 0 0.5em;
 }
 
 footer{
