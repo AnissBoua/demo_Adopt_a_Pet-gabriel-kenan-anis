@@ -119,12 +119,6 @@ h1{
     height: 15vw;
 }
 
-.animals_gridinfo{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
-
 .animal_infolike{
     display: flex;
     justify-content: space-between;
